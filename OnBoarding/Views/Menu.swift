@@ -60,6 +60,7 @@ struct Menu: View {
                         Toggle("Desserts", isOn: $dessertsIsEnabled)
                         Toggle("Drinks", isOn: $drinksIsEnabled)
                     }
+                    .font(.system(size: 24))
                     .toggleStyle(MyToggleStyle())
                     .padding(.horizontal)
                 }
